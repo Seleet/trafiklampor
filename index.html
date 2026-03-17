@@ -1,27 +1,28 @@
 <!doctype html>
 <html>
+
 <head>
   <link rel="stylesheet" href="main.css" />
 </head>
+
 <body>
-  <h1>JavaScript Progress Bar</h1>
+  <div class="container">
 
 
-<div class = "container">
-  <div id="myProgress-red" class="light"></div>
-  <div id="myProgress-yellow" class="light"></div>
-  <div id="myProgress-green" class="light"></div>
+    <div class="lights">
+      <div id="myProgress-red" class="light"></div>
+      <div id="myProgress-yellow" class="light"></div>
+      <div id="myProgress-green" class="light"></div>
+    </div>
+
+    <br />
+
+<div class="button-row">
+    <button id="btn-red" onclick="myLight('red')">Red</button>
+    <button id="btn-yellow" onclick="myLight('yellow')">Yellow</button>
+    <button id="btn-green" onclick="myLight('green')">Green</button>
   </div>
-
-  <br />
-
-  <div>
-    <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10" />
-    <label for="cowbell">Cowbell</label>
-  </div>
-  <button id="btn-red" onclick="myLight('red')">Red</button>
-  <button id="btn-yellow" onclick="myLight('yellow')">Yellow</button>
-  <button id="btn-green" onclick="myLight('green')">Green</button>
+</div>
 
   <script src="index.js"></script>
 </body>
