@@ -1,0 +1,23 @@
+.container {
+}
+
+.light {
+  background-color: grey;
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+  margin: 4px;
+  border-radius: 50%;
+}
+
+#btn-green {
+  background-color: green;
+}
+
+#btn-yellow {
+  background-color: yellow;
+}
+
+#btn-red {
+  background-color: red;
+}
